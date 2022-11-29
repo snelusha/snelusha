@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("fonts.css");
+
+* {
+  font-family: "Share Tech Mono", monospace;
+  @apply text-sm;
+}
+
+button {
+  @apply outline-none;
+}

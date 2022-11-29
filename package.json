@@ -1,0 +1,29 @@
+{
+  "name": "alone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "axios": "^1.2.0",
+    "crypto": "^1.0.1",
+    "lowdb": "^4.0.1",
+    "next": "13.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "steno": "^3.0.0",
+    "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-100vh-fix": "^1.0.2",
+    "tailwindcss": "^3.2.4"
+  }
+}
